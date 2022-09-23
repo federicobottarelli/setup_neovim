@@ -10,5 +10,10 @@ require('plugins')
 require('shortcut')
 
 --vim.cmd('COQnow')
-vim.cmd "colorscheme railscasts"
+vim.cmd "colorscheme neon"
 require'lspconfig'.pyright.setup{}
+-- file manager setup
+require('setup.fm-nvim')
+-- statubar
+-- require('setup.feline')
+require('setup.lualine')
