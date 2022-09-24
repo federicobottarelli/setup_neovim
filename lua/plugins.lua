@@ -11,6 +11,7 @@ return require('packer').startup(function(use)
     }
     -- file manager
     use 'is0n/fm-nvim'
+    use 'kyazdani42/nvim-tree.lua'
     -- themes and colorscheme
     use 'bluz71/vim-moonfly-colors'
     use 'jpo/vim-railscasts-theme'

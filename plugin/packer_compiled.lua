@@ -74,10 +74,66 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  coq_nvim = {
+    loaded = true,
+    path = "/home/fede/.local/share/nvim/site/pack/packer/start/coq_nvim",
+    url = "https://github.com/ms-jpq/coq_nvim"
+  },
+  ["feline.nvim"] = {
+    loaded = true,
+    path = "/home/fede/.local/share/nvim/site/pack/packer/start/feline.nvim",
+    url = "https://github.com/feline-nvim/feline.nvim"
+  },
+  ["fm-nvim"] = {
+    loaded = true,
+    path = "/home/fede/.local/share/nvim/site/pack/packer/start/fm-nvim",
+    url = "https://github.com/is0n/fm-nvim"
+  },
+  ["glow.nvim"] = {
+    loaded = true,
+    path = "/home/fede/.local/share/nvim/site/pack/packer/start/glow.nvim",
+    url = "https://github.com/ellisonleao/glow.nvim"
+  },
+  ["lualine.nvim"] = {
+    loaded = true,
+    path = "/home/fede/.local/share/nvim/site/pack/packer/start/lualine.nvim",
+    url = "https://github.com/nvim-lualine/lualine.nvim"
+  },
+  neon = {
+    loaded = true,
+    path = "/home/fede/.local/share/nvim/site/pack/packer/start/neon",
+    url = "https://github.com/rafamadriz/neon"
+  },
+  ["nvim-lspconfig"] = {
+    loaded = true,
+    path = "/home/fede/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
+    url = "https://github.com/neovim/nvim-lspconfig"
+  },
+  ["nvim-treesitter"] = {
+    loaded = true,
+    path = "/home/fede/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
+    url = "https://github.com/nvim-treesitter/nvim-treesitter"
+  },
+  ["nvim-web-devicons"] = {
+    loaded = false,
+    needs_bufread = false,
+    path = "/home/fede/.local/share/nvim/site/pack/packer/opt/nvim-web-devicons",
+    url = "https://github.com/kyazdani42/nvim-web-devicons"
+  },
   ["packer.nvim"] = {
     loaded = true,
     path = "/home/fede/.local/share/nvim/site/pack/packer/start/packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
+  },
+  ["vim-moonfly-colors"] = {
+    loaded = true,
+    path = "/home/fede/.local/share/nvim/site/pack/packer/start/vim-moonfly-colors",
+    url = "https://github.com/bluz71/vim-moonfly-colors"
+  },
+  ["vim-railscasts-theme"] = {
+    loaded = true,
+    path = "/home/fede/.local/share/nvim/site/pack/packer/start/vim-railscasts-theme",
+    url = "https://github.com/jpo/vim-railscasts-theme"
   }
 }
 

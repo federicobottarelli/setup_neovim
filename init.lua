@@ -17,3 +17,6 @@ require('setup.fm-nvim')
 -- statubar
 -- require('setup.feline')
 require('setup.lualine')
+require('setup.treesitter')
+require('setup.nvim-tree')
+
